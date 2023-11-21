@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1510],{5798:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/vincedbowen.github.io/blog/tags/hola","allTagsPath":"/vincedbowen.github.io/blog/tags","count":1,"unlisted":false}')}}]);
