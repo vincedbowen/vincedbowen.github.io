@@ -13,9 +13,10 @@
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
-  p{
-    margin-bottom: 40px;
-  }
+}
+
+.column p{
+  margin-bottom: 40px;
 }
 
 .container_col {
