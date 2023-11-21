@@ -13,10 +13,10 @@ const config = {
   favicon: 'img/vb_favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://vincedbowen.github.io/',
+  url: 'https://www.vincentbowen.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/vincedbowen.github.io/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
