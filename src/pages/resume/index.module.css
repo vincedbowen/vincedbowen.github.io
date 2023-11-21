@@ -1,12 +1,8 @@
 .column {
   flex: 1;
-  padding: 20px;
+  padding: 35px;
   box-sizing: border-box;
   margin: 35px;
-}
-
-.column p{
-  margin-bottom: 40px;
 }
 
 .container_col {
@@ -20,4 +16,3 @@
     margin-bottom: 20px;
   }
 }
-
