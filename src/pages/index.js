@@ -33,7 +33,7 @@ function AboutFeatures() {
         </p>
       </div>
       <div className={styles.column}>
-        <img src={"img/head_shot.png"} alt="My head shot" style={{ borderRadius: '10%', width: '75%'}}/>
+        <img src={"img/head_shot.jpeg"} alt="My head shot" style={{ borderRadius: '7%', width: '75%'}}/>
       </div>
     </div>
   );
