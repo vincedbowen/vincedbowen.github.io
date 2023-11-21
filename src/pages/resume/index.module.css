@@ -1,0 +1,23 @@
+.column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 35px;
+}
+
+.column p{
+  margin-bottom: 40px;
+}
+
+.container_col {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1020px) {
+  .column{
+    flex: 100%;
+    margin-bottom: 20px;
+  }
+}
+

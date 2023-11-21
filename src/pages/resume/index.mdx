@@ -1,9 +1,86 @@
 ---
-title: my hello page title
-description: my hello page description
+title: Resume
+description: My Resume
 hide_table_of_contents: true
 ---
 
+import styles from './index.module.css';
+import ButtonUsage from './buttonUsage.js';
+
 # Resume 
 
-import './resume.css';
+<ButtonUsage text = "View as PDF" path = "bowen_vincent_resume.pdf"></ButtonUsage>
+
+## Education 
+
+### University of Colorado Boulder
+- Bachelor of Science in Computer Science
+- Minor in Biomedical Engineering
+- Certificate in Engineering Leadership
+- Accelerated Master of Science in Data Science 
+- GPA: 3.61/4.0
+
+
+## Experience 
+
+### Machine Learning Engineer at the AI for Good Foundation
+- Volunteer on the Climate Trend Scanner supported by the United Nations Development Programme, the Research Institute of Sweden, BWA Design, and Microsoft
+- Creat a graph database with Neo4j and Cypher to connect extracted entities from a natural language processing learning model for data visualization of complex use cases
+- Clean data and automate database loading using Python to increase performance and accuracy
+
+### Course Assistant at University of Colorado Boulder
+- Support professor and students in CSCI 3022 - Intro to Data Science with Probability and Statistics
+- Aid and teach students: question formulation, data collection and cleaning, visualization, statistical inference,
+predictive modeling, and decision making
+- Host office hours to assist students in applying analysis techniques to programming assignments focused on using
+Python, Numpy, Pandas, Matplotlib, SciPy, and Statsmodels
+
+## Projects
+
+<div className = {styles.container_col}>
+    <div className = {styles.column}>
+        <h3>Into the Know</h3>
+        <img src={"img/head_shot.jpeg"} alt="My head shot" style={{ borderRadius: '7%', width: '60%'}}/>
+        - Gathered users’ cycling and running data using the Strava API
+        - Cleaned and formatted data to visualize with Dash and Plotly in real time
+        - Implemented GitHub actions for continuous integration and generated web based documentation with Sphnix and
+        Read the Docs       
+    </div>
+    <div className = {styles.column} >
+        <h3>AirfareAffairs</h3>
+        <img src={"img/head_shot.jpeg"} alt="My head shot" style={{ borderRadius: '7%', width: '60%'}}/>
+        - Developed a full stack website where logged in users could search real flights and add to a personalized weekly
+        calendar
+        - Utilized four external HTTPS requests to display flights, weather data, and airports around the globe
+    </div>
+</div>
+
+## Technical Skills
+
+#### Languages:
+Python, Java, Scala, Cypher, C/C++, HTML/CSS, Javascript
+
+#### Frameworks:
+Dash, Bootstrap, JUnit
+
+#### Developer Tools:
+Postman, Neo4j, Pytest, Sphinx, Gradle, GitHub Actions, Git, Docker, GNU Debugger, Docusaurus
+
+#### Libraries:
+NumPy, Pandas, Dotenv, Matplotlib, Plotly, urllib3, Keras, SciPy, Statsmodels
+
+## Extracurricular Activities
+
+### Google Developer Student Clubs - CU Boulder
+#### *President | North America Leads Advisory Committee Representative*
+
+- Lead and organize a 194 member chapter aiming to help students learn, grow, and connect
+- Hosted 6 events where members of industry taught students about: Flutter, Dart, Google Cloud, Kotlin, and PaLM 2
+- Support new leads at 14 universities in the Rocky Mountain region of the US and Canada
+
+#### NASA University Student Launch Initiative. LeetCode Club. CU Climbing Team
+## Awards
+- People’s Choice Award for Engineering Without Borders UK 2022 Engineering For People Design Challenge
+- Most Useful Project Award in 2023 Human Computer Interaction Expo
+- University of Colorado Boulder College of Engineering and Applied Science Dean’s List
+
