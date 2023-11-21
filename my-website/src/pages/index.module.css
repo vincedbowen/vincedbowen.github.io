@@ -1,0 +1,31 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.name {
+  margin-top: 1%;
+  margin-left: 3%;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  p{
+    margin-bottom: 40px;
+  }
+}
+
+.container_col {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1020px) {
+  .column{
+    flex: 100%;
+    margin-bottom: 20px;
+  }
+}
