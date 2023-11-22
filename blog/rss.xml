@@ -16,7 +16,6 @@
             <description><![CDATA[Welcome to my blog/news! This is where I will put any updates about anything really.]]></description>
             <content:encoded><![CDATA[<p>Welcome to my blog/news! This is where I will put any updates about anything really.</p>
 <p>Note: I have a feeling this will be updated fairly infrequently, but it seems like a fun idea.</p>]]></content:encoded>
-            <category>Welcome</category>
         </item>
     </channel>
 </rss>
