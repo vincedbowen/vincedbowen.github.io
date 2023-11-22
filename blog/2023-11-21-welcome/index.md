@@ -1,7 +1,6 @@
 ---
 slug: welcome
 title: Welcome
-tags: [Welcome]
 ---
 
 Welcome to my blog/news! This is where I will put any updates about anything really. 

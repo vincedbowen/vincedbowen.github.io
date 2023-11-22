@@ -1,14 +1,12 @@
 .column {
   flex: 1;
-  padding: 35px;
+  padding: 20px;
   box-sizing: border-box;
-  margin: 35px;
 }
 
 .container_col {
   display: flex;
   flex-wrap: wrap;
-  padding: 35px;
 }
 
 @media (max-width: 1020px) {
@@ -16,4 +14,13 @@
     flex: 100%;
     margin-bottom: 20px;
   }
+}
+
+LinkButton {
+  margin: 10%;
+  padding: 10%;
+}
+
+LinkButton &:hover{
+  text-decoration: none !important
 }
