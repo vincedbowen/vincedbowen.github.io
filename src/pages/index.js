@@ -20,14 +20,14 @@ function AboutFeatures() {
     <div className={styles.container_col}>
       <div className={styles.column}>
         <p>
-          Hello! I am a junior studying Computer Science at the <a href="https://www.colorado.edu/">University of Colorado Boulder</a>.
+          Hello! I am a junior studying Computer Science at the <a href="https://www.colorado.edu/" target="_blank">University of Colorado Boulder</a>.
           I am minoring in Biomedical Engineering and receiving a certificate in Engineering Leadership. This fall, I have been admitted into an <a href="https://www.colorado.edu/cs/academics/undergraduate-programs/accelerated-masters-programs/data-science-accelerated-masters">accelerated Master of Science program</a> in Data Science that I am very excited to begin. Currently, I am extremely passionate about using
           technology and software in healthcare/medicine. Over the past months, I have been volunteering as a Machine Learning Engineer at the 
-          <a href="https://ai4good.org/what-we-do/climatesdgscanners/"> AI for Good Foundation</a> where I work with NLP models and graph databases to connect extracted entities. 
-          Additionally, I am a course assistant for <a href="https://catalog.colorado.edu/courses-a-z/csci/">CSCI 3022 - Intro to Data Science with Probability and Statistics</a>.
+          <a href="https://ai4good.org/what-we-do/climatesdgscanners/" target="_blank"> AI for Good Foundation</a> where I work with NLP models and graph databases to connect extracted entities. 
+          Additionally, I am a course assistant for <a href="https://catalog.colorado.edu/courses-a-z/csci/" target="_blank">CSCI 3022 - Intro to Data Science with Probability and Statistics</a>.
         </p>
         <p>
-          During my free time, I enjoy cycling (check out my <a href="https://www.strava.com/athletes/119427941">Strava</a>), getting outdoors, and listening to music!
+          During my free time, I enjoy cycling (check out my <a href="https://www.strava.com/athletes/119427941" target="_blank">Strava</a>), getting outdoors, and listening to music!
           I also love implementing new technologies into personal projects and expanding my knowledge beyond what is covered in my coursework!!
         </p>
       </div>
