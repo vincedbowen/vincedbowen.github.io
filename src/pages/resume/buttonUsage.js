@@ -1,13 +1,24 @@
 
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
-import { purple } from '@mui/material/colors';
+import { useColorMode } from '@docusaurus/theme-common';
 
-const MyButton = styled(Button)(({ theme }) => ({
-    color: theme.palette.getContrastText(purple[500]),
-    backgroundColor: purple[500],
+const LightButton = styled(Button)(() => ({
+    color: '#fff',
+    backgroundColor: '#297A5F',
     '&:hover': {
-      backgroundColor: purple[700],
+      backgroundColor: '#453643',
+    },
+    padding: '10px 15px',
+    marginBottom: '25px',
+}));
+
+const DarkButton = styled(Button)(() => ({
+    color: 'black',
+    backgroundColor: '#FCBF49',
+    '&:hover': {
+        color: '#fff',
+        backgroundColor: '#453643',
     },
     padding: '10px 15px',
     marginBottom: '25px',
@@ -17,10 +28,19 @@ export default function ButtonUsage({ text, path }) {
     const handleDownload = () => {
             window.open(path, '_blank');
         };
-
-    return (
-        <MyButton variant="contained" onClick={handleDownload}>
-        {text}
-        </MyButton>
-    );
+    const { colorMode } = useColorMode();
+    if(colorMode === 'light'){
+        return ( 
+            <LightButton variant="contained" onClick={handleDownload}>
+            {text}
+            </LightButton>
+        );
+    }
+    else{
+        return (
+            <DarkButton variant="contained" onClick={handleDownload}>
+            {text}
+            </DarkButton>
+        );
+    }
 }

@@ -8,6 +8,7 @@
 .container_col {
   display: flex;
   flex-wrap: wrap;
+  padding: 35px;
 }
 
 @media (max-width: 1020px) {
