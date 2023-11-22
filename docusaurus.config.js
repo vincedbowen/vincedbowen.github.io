@@ -79,7 +79,7 @@ const config = {
             title: 'Social Media',
             items: [
               {
-                label: 'Linked In',
+                label: 'LinkedIn',
                 href: 'https://www.linkedin.com/in/vincentbowen/',
               },
               {
