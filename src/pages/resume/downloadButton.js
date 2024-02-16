@@ -1,5 +1,11 @@
 import Button from '@mui/material/Button';
-import { styled } from '@mui/material/styles';
+import { createTheme, styled, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+    typography: {
+        fontFamily: 'Garamond, serif',
+    },
+});
 
 const MyButton = styled(Button)(() => ({
     color: '#fff',
@@ -9,6 +15,9 @@ const MyButton = styled(Button)(() => ({
     },
     padding: '10px 15px',
     marginBottom: '25px',
+    sx: {
+        fontFamily: 'Garamond, serif',
+    },
 }));
 
 export default function DownloadButton({ text, path }) {
@@ -16,8 +25,10 @@ export default function DownloadButton({ text, path }) {
             window.open(path, '_blank');
         };
     return ( 
+        <ThemeProvider theme={theme}>
             <MyButton variant="contained" onClick={handleDownload}>
                 {text}
             </MyButton>
+        </ThemeProvider>    
     );
 }

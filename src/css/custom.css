@@ -7,10 +7,10 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #297A5F;
-  --ifm-code-font-size: 95%;
+  /* --ifm-code-font-size: 95%; */
   --ifm-font-family-base: 'Garamond';
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 .margin-vert--lg {
