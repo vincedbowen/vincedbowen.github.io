@@ -4,16 +4,10 @@
         <title>Vincent Bowen Blog</title>
         <link>https://www.vincentbowen.com/blog</link>
         <description>Vincent Bowen Blog</description>
-        <lastBuildDate>Tue, 20 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Nov 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[Spring 2024 Semester Update]]></title>
-            <link>https://www.vincentbowen.com/blog/Spring 2024 Semester Update</link>
-            <guid>https://www.vincentbowen.com/blog/Spring 2024 Semester Update</guid>
-            <pubDate>Tue, 20 Feb 2024 00:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://www.vincentbowen.com/blog/welcome</link>
