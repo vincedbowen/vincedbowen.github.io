@@ -9,6 +9,10 @@
   flex-wrap: wrap;
 }
 
+.column:nth-child(2) {
+  flex: 4; /* This makes the second column take up 2/3 of the page */
+}
+
 @media (max-width: 1020px) {
   .column{
     flex: 100%;
