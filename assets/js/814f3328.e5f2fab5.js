@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Spring 2024 Semester Update","permalink":"/blog/Spring 2024 Semester Update","unlisted":false},{"title":"Welcome","permalink":"/blog/welcome","unlisted":false}]}')}}]);
