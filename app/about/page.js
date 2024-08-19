@@ -40,7 +40,7 @@ export default function About() {
     <Navbar/>
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 overflow-hidden">
       <h1 className="text-6xl font-bold mb-2 text-center">Vincent Bowen</h1>
-      <div className="grid grid-cols-7 w-auto mb-10 items-end overflow-hidden">
+      <div className="grid grid-cols-7 w-auto mb-10 items-end">
         <LinkedInIcon/>
         <GithubIcon/>
         <Link className="underline hover:no-underline hover:text-white col-span-5 text-lg pl-6 text-yellow" href="mailto:vincent@vincentbowen.com">
