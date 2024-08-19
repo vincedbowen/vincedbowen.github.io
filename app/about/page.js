@@ -14,7 +14,7 @@ export function LinkedInIcon() {
         whileTap={{ scale: 0.9, rotate: -10 }}
         transition={{ type: 'spring', stiffness: 300 }}
       >
-        <FaLinkedin className="size-10 fill-red hover:fill-white" />
+        <FaLinkedin className="size-10 fill-red hover:fill-white z-50" />
       </motion.div>
     </Link>
   );
@@ -28,7 +28,7 @@ export function GithubIcon() {
         whileTap={{ scale: 0.9, rotate: -10 }}
         transition={{ type: 'spring', stiffness: 300 }}
       >
-        <FaGithubSquare className="size-10 fill-light-blue hover:fill-white" />
+        <FaGithubSquare className="size-10 fill-light-blue hover:fill-white z-50" />
       </motion.div>
     </Link>
   );
