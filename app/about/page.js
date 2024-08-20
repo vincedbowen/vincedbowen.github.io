@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import React from 'react';
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
+import Footer from "../components/Footer";
 
 export function LinkedInIcon() {
   return (
@@ -14,7 +15,7 @@ export function LinkedInIcon() {
         whileTap={{ scale: 0.9, rotate: -10 }}
         transition={{ type: 'spring', stiffness: 300 }}
       >
-        <FaLinkedin className="size-10 fill-red hover:fill-white z-50" />
+        <FaLinkedin className="size-10 fill-red hover:fill-white" />
       </motion.div>
     </Link>
   );
@@ -28,7 +29,7 @@ export function GithubIcon() {
         whileTap={{ scale: 0.9, rotate: -10 }}
         transition={{ type: 'spring', stiffness: 300 }}
       >
-        <FaGithubSquare className="size-10 fill-light-blue hover:fill-white z-50" />
+        <FaGithubSquare className="size-10 fill-light-blue hover:fill-white" />
       </motion.div>
     </Link>
   );
@@ -36,9 +37,9 @@ export function GithubIcon() {
 
 export default function About() {
   return (
-  <main>
+  <main className="overflow-x-hidden min-h-screen">
     <Navbar/>
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 overflow-hidden">
+    <div className="flex flex-col items-center min-h-screen bg-gray-100 pt-32 ">
       <h1 className="text-6xl font-bold mb-2 text-center">Vincent Bowen</h1>
       <div className="grid grid-cols-7 w-auto mb-10 items-end">
         <LinkedInIcon/>
@@ -52,10 +53,11 @@ export default function About() {
         Hello! I am a senior studying Computer Science at the University of Colorado Boulder.
         I am minoring in Biomedical Engineering and receiving a certificate in Engineering Leadership.
         This last spring, I was admitted into an accelerated Master of Science program in Computer Science and have been very excited to take graduate courses for that.
-        Currently, I am extremely passionate about using technology and software to solve challenges in our healthcare & medical system.
+        Currently, I am extremely passionate about using technology and software to solve challenges in our healthcare & medical system. <br/>
         During my free time, I enjoy cycling, getting outdoors, and listening to music!
       </p>
     </div>
+    <Footer/>
   </main>
   );
 }

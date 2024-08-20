@@ -24,27 +24,79 @@ export default function Resume() {
   return (
     <main>
         <Navbar/>
-        <div className="grid grid-cols-7 w-64 mb-10 items-center">
-            <h1 className="text-4xl font-bold mb-6 ml-8 mt-4 col-span-5">Resume</h1>
-            <div className="col-span-2 flex items-center justify-center">
+        <div className="grid grid-cols-7 w-52 mb-6 ml-14 items-baseline">
+            <h1 className="text-4xl font-bold mb-2 mt-6 col-span-5">Resume</h1>
+            <div className="col-span-2 flex justify-center">
                 <ResumeDownload />
             </div>
-            
         </div>
         <div>
-        <table className="table-fixed ml-8">
+        <table className="table-fixed ml-14 max-w-7xl">
             <tbody>
-                <tr className='p-4'>
-                    <td>Education</td>
-                    <td>Lorem ipsum odor amet, consectetuer adipiscing elit. Taciti congue aenean accumsan pellentesque tellus aenean. Arcu massa quisque rhoncus molestie magna aliquam. Ac inceptos pretium per leo at. At eget faucibus integer mauris varius laoreet. Habitasse purus sagittis dis malesuada elit ultrices blandit luctus magna. Eros maximus vestibulum tempus efficitur nisi tincidunt dignissim. Curae dictum phasellus dapibus tincidunt ridiculus. Potenti lacus massa placerat; ornare ad metus vestibulum penatibus?</td>
+                <tr>
+                    <td className='py-4 pr-10 align-top font-bold text-xl'>Experience</td>
+                    <td className='p-4'>
+                    <ul class="list-none">
+                        <li>
+                            <text className='text-lg text-yellow'>Software Engineer Intern @ The Cigna Group</text>
+                        </li>
+                        <li>
+                            <text className='text-lg text-red'>Course Manager/Assistant @ University of Colorado Boulder</text>
+                        </li>
+                        <li>
+                            <text className='text-lg text-light-blue'>Machine Learning Engineer @ AI for Good</text>
+                        </li>
+                    </ul>
+                    </td>
                 </tr>
-                <tr className='p-4'>
-                    <td>Experience</td>
-                    <td>Lorem ipsum odor amet, consectetuer adipiscing elit. Taciti congue aenean accumsan pellentesque tellus aenean. Arcu massa quisque rhoncus molestie magna aliquam. Ac inceptos pretium per leo at. At eget faucibus integer mauris varius laoreet. Habitasse purus sagittis dis malesuada elit ultrices blandit luctus magna. Eros maximus vestibulum tempus efficitur nisi tincidunt dignissim. Curae dictum phasellus dapibus tincidunt ridiculus. Potenti lacus massa placerat; ornare ad metus vestibulum penatibus?</td>
-                </tr>
-                <tr className='p-4'>
-                    <td>Projects</td>
-                    <td>Lorem ipsum odor amet, consectetuer adipiscing elit. Taciti congue aenean accumsan pellentesque tellus aenean. Arcu massa quisque rhoncus molestie magna aliquam. Ac inceptos pretium per leo at. At eget faucibus integer mauris varius laoreet. Habitasse purus sagittis dis malesuada elit ultrices blandit luctus magna. Eros maximus vestibulum tempus efficitur nisi tincidunt dignissim. Curae dictum phasellus dapibus tincidunt ridiculus. Potenti lacus massa placerat; ornare ad metus vestibulum penatibus?</td>
+                <tr>
+                    <td className='py-4 pr-10 align-top font-bold text-xl'>Projects</td>
+                    <td className='p-4'>
+                        <ul class="list-none">
+                            <li>
+                                <text className='text-lg text-yellow'>CignaVerse</text>
+                            </li>
+                            <li>
+                                <text className='text-lg text-red'>Mancala AI</text>
+                                <br/>
+                                <text>
+                                I initially developed a rudimentary and admittedly subpar version of a mancala AI as a project for the University of Colorado Boulder's CSCI 3202: Introduction to Artificial Intelligence course.
+                                The project consisted of an altered form of mancala and a min-max algorithm in a Jupyter Notebook.
+                                Recently, my girlfriend and I have been playing a lot of mancala, and I have been losing so badly!
+                                I decided to overhaul my code, and turn it into a project I could be proud of (and maybe use to get some wins) 😅!
+                                <br/><br/>
+                                Leveraging a min-max algorithm with alpha-beta pruning, the bot has extremely high win rates against a random player. 
+                                I would like to develop a UI to actually play the bot in real-time.
+                                Currently implemented, however, is a Streamlit application that displays the win rates of random opponent vs. random opponent and random opponent vs. bot opponent (in real-time!)
+                                Additionally, I've placed a strong emphasis on achieving extensive testing coverage and generating comprehensive documentation.
+                                </text>
+                            </li>
+                            <li>
+                                <text className='text-lg text-light-blue'>Into the Know</text>
+                                <br/>
+                                <text>
+                                    Into the Know is a python application built using Dash, Plotly, and the Strava API.
+                                    Users can host the application locally, enabling them to explore and analyze their cycling statistics.
+                                    Currently implemented is an average power / ride chart, and an archetype graph, visually representing premium user's maximum power output for certain time intervals.
+                                    The Strava API was extremely difficult to use due to obscure formatting and stringent token limitations.
+                                    I also implemented a bit of documentation using Sphinx and Read the Docs to enhance user accessibility and clarity.
+                                </text>
+                            </li>
+                            <li>
+                                <text className='text-lg text-yellow'>Ambulance Dispatch Simulator</text>
+                            </li>
+                            <li>
+                                <text className='text-lg text-red'>Increasing Uncrewed Underwater Vehicle (UUV) Range & Persistence</text>
+                                <br/>
+                                <text>
+                                    Through a University of Colorado Boulder course, Designing for Defense, my team and I were tasked with extending the range and persistence of UUVs. 
+                                    Our objective was to provide a minimum viable product aligned with the requirements for the Naval Sea Systems Command and commercial stakeholders.
+                                    We engaged in comprehensive beneficiary analysis of members of the U.S. defense and scientific communities to understand operational, tactical, and strategic advantages in Naval Warfare and oceanic research.
+                                    Leading a small group, I oversaw the ideation and development of a successful whitepaper and early prototype to NAVSEA. 
+                                </text>
+                            </li>
+                        </ul>
+                    </td>
                 </tr>
             </tbody>
         </table>
