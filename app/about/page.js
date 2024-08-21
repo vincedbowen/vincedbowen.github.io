@@ -39,7 +39,7 @@ export default function About() {
   return (
   <main className="overflow-x-hidden flex flex-col min-h-screen">
     <Navbar/>
-    <div className="flex flex-col flex-grow items-center bg-gray-100 pt-32 ">
+    <div className="flex flex-col flex-grow items-center pt-32 ">
       <h1 className="text-6xl font-bold mb-2 text-center">Vincent Bowen</h1>
       <div className="grid grid-cols-7 w-auto mb-10 items-end">
         <LinkedInIcon/>
@@ -49,11 +49,14 @@ export default function About() {
         </Link>
       </div>
       {/* Centered Paragraph */}
-      <p className="text-lg text-center max-w-5xl">
-        Hello! I am a senior studying Computer Science at the University of Colorado Boulder.
-        I am minoring in Biomedical Engineering and receiving a certificate in Engineering Leadership.
-        This last spring, I was admitted into an accelerated Master of Science program in Computer Science and have been very excited to take graduate courses for that.
-        Currently, I am extremely passionate about using technology and software to solve challenges in our healthcare & medical system. <br/>
+      <p className="text-lg text-center max-w-4xl">
+        Hello {`:-)`} I am a senior at the University of Colorado Boulder, studying computer science.
+        This past spring, I was admitted into an <Link href={'https://www.colorado.edu/cs/academics/graduate-programs/professional-masters-computer-science'} className="underline hover:no-underline hover:text-red">accelerated {`Master's`} program</Link> will be graduating with both a Bachelor of Science and a Master of Science in Computer Science in May 2026.
+        <br/><br/>
+      
+        Currently, I am extremely passionate about using technology and software to solve challenges in our healthcare and medical system.
+        I just completed an internship at <Link href={'https://www.thecignagroup.com/'} className="underline hover:no-underline hover:text-light-blue">The Cigna Group</Link>, where I had the opportunity to work on exactly that!
+        <br/><br/>
         During my free time, I enjoy cycling, getting outdoors, and listening to music!
       </p>
     </div>
