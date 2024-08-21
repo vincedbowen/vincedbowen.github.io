@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function Colophon() {
   return (
-  <main>
+  <main className='overflow-x-hidden flex flex-col min-h-screen'>
     <Navbar/>
     <h1 className="text-4xl font-bold mb-6 ml-8 mt-4">Colophon</h1>
-    <div className="flex flex-col items-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center flex-grow bg-gray-100">
       <p className="text-lg text-center max-w-5xl">
         Hello! I am a senior studying Computer Science at the University of Colorado Boulder.
         I am minoring in Biomedical Engineering and receiving a certificate in Engineering Leadership.
@@ -15,6 +16,7 @@ export default function Colophon() {
         During my free time, I enjoy cycling, getting outdoors, and listening to music!
       </p>
     </div>
+    <Footer/>
   </main>
   );
 }

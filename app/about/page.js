@@ -37,9 +37,9 @@ export function GithubIcon() {
 
 export default function About() {
   return (
-  <main className="overflow-x-hidden min-h-screen">
+  <main className="overflow-x-hidden flex flex-col min-h-screen">
     <Navbar/>
-    <div className="flex flex-col items-center min-h-screen bg-gray-100 pt-32 ">
+    <div className="flex flex-col flex-grow items-center bg-gray-100 pt-32 ">
       <h1 className="text-6xl font-bold mb-2 text-center">Vincent Bowen</h1>
       <div className="grid grid-cols-7 w-auto mb-10 items-end">
         <LinkedInIcon/>
@@ -49,7 +49,7 @@ export default function About() {
         </Link>
       </div>
       {/* Centered Paragraph */}
-      <p className="text-lg text-center max-w-5xl overflow-hidden">
+      <p className="text-lg text-center max-w-5xl">
         Hello! I am a senior studying Computer Science at the University of Colorado Boulder.
         I am minoring in Biomedical Engineering and receiving a certificate in Engineering Leadership.
         This last spring, I was admitted into an accelerated Master of Science program in Computer Science and have been very excited to take graduate courses for that.

@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import { FaFileDownload } from "react-icons/fa";
 import { motion } from "framer-motion";
 import React from 'react';
+import Footer from '../components/Footer';
 
 export function ResumeDownload() {
     return (
@@ -101,6 +102,7 @@ export default function Resume() {
             </tbody>
         </table>
         </div>
+        <Footer/>
     </main>
   );
 }
