@@ -4,6 +4,7 @@ import { Disclosure, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/r
 import { FaBars, FaTimes } from "react-icons/fa";
 import Link from 'next/link';
 import { motion } from "framer-motion";
+import Image from 'next/image';
 
 export function HomeLogo() {
     return (
@@ -13,10 +14,11 @@ export function HomeLogo() {
           whileTap={{ scale: 0.9, rotate: -10 }}
           transition={{ type: 'spring', stiffness: 300 }}
         >
-            <img
+            <Image
                 alt="Home"
                 src="/vdbHome.png"
-                className="h-16 w-auto"
+                height={64}
+                width={64}
             />
         </motion.div>
       </Link>
