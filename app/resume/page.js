@@ -60,26 +60,26 @@ export default function Resume() {
                                 <text className='text-lg text-red'>Mancala AI</text>
                                 <br/>
                                 <text>
-                                I initially developed a rudimentary and admittedly subpar version of a mancala AI as a project for the University of Colorado Boulder's CSCI 3202: Introduction to Artificial Intelligence course.
+                                {`I initially developed a rudimentary and admittedly subpar version of a mancala AI as a project for the University of Colorado Boulder's CSCI 3202: Introduction to Artificial Intelligence course.
                                 The project consisted of an altered form of mancala and a min-max algorithm in a Jupyter Notebook.
                                 Recently, my girlfriend and I have been playing a lot of mancala, and I have been losing so badly!
-                                I decided to overhaul my code, and turn it into a project I could be proud of (and maybe use to get some wins) 😅!
+                                I decided to overhaul my code, and turn it into a project I could be proud of (and maybe use to get some wins) 😅!`}
                                 <br/><br/>
-                                Leveraging a min-max algorithm with alpha-beta pruning, the bot has extremely high win rates against a random player. 
+                                {`Leveraging a min-max algorithm with alpha-beta pruning, the bot has extremely high win rates against a random player. 
                                 I would like to develop a UI to actually play the bot in real-time.
                                 Currently implemented, however, is a Streamlit application that displays the win rates of random opponent vs. random opponent and random opponent vs. bot opponent (in real-time!)
-                                Additionally, I've placed a strong emphasis on achieving extensive testing coverage and generating comprehensive documentation.
+                                Additionally, I've placed a strong emphasis on achieving extensive testing coverage and generating comprehensive documentation.`}
                                 </text>
                             </li>
                             <li>
                                 <text className='text-lg text-light-blue'>Into the Know</text>
                                 <br/>
                                 <text>
-                                    Into the Know is a python application built using Dash, Plotly, and the Strava API.
+                                    {`Into the Know is a python application built using Dash, Plotly, and the Strava API.
                                     Users can host the application locally, enabling them to explore and analyze their cycling statistics.
                                     Currently implemented is an average power / ride chart, and an archetype graph, visually representing premium user's maximum power output for certain time intervals.
                                     The Strava API was extremely difficult to use due to obscure formatting and stringent token limitations.
-                                    I also implemented a bit of documentation using Sphinx and Read the Docs to enhance user accessibility and clarity.
+                                    I also implemented a bit of documentation using Sphinx and Read the Docs to enhance user accessibility and clarity.`}
                                 </text>
                             </li>
                             <li>
@@ -89,10 +89,10 @@ export default function Resume() {
                                 <text className='text-lg text-red'>Increasing Uncrewed Underwater Vehicle (UUV) Range & Persistence</text>
                                 <br/>
                                 <text>
-                                    Through a University of Colorado Boulder course, Designing for Defense, my team and I were tasked with extending the range and persistence of UUVs. 
+                                    {`Through a University of Colorado Boulder course, Designing for Defense, my team and I were tasked with extending the range and persistence of UUVs. 
                                     Our objective was to provide a minimum viable product aligned with the requirements for the Naval Sea Systems Command and commercial stakeholders.
                                     We engaged in comprehensive beneficiary analysis of members of the U.S. defense and scientific communities to understand operational, tactical, and strategic advantages in Naval Warfare and oceanic research.
-                                    Leading a small group, I oversaw the ideation and development of a successful whitepaper and early prototype to NAVSEA. 
+                                    Leading a small group, I oversaw the ideation and development of a successful whitepaper and early prototype to NAVSEA.`}
                                 </text>
                             </li>
                         </ul>
