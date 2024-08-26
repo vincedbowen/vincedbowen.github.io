@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 export function LinkedInIcon() {
   return (
-    <Link href="https://www.linkedin.com/">
+    <Link href="https://www.linkedin.com/in/vincentbowen/">
       <motion.div
         whileHover={{ scale: 1.2, rotate: 10 }}
         whileTap={{ scale: 0.9, rotate: -10 }}
@@ -23,7 +23,7 @@ export function LinkedInIcon() {
 
 export function GithubIcon() {
   return (
-    <Link href="https://www.linkedin.com/">
+    <Link href="https://github.com/vincedbowen">
       <motion.div
         whileHover={{ scale: 1.2, rotate: 10 }}
         whileTap={{ scale: 0.9, rotate: -10 }}
@@ -39,6 +39,7 @@ export default function About() {
   return (
   <main className="overflow-x-hidden flex flex-col min-h-screen">
     <Navbar/>
+    {/* <hr className='bg-white h-0.5 z-50'/> */}
     <div className="flex flex-col flex-grow items-center pt-32 ">
       <h1 className="text-6xl font-bold mb-2 text-center">Vincent Bowen</h1>
       <div className="grid grid-cols-7 w-auto mb-10 items-end">
@@ -50,7 +51,7 @@ export default function About() {
       </div>
       {/* Centered Paragraph */}
       <p className="text-lg text-center max-w-4xl">
-        Hello {`:-)`} I am a senior at the University of Colorado Boulder, studying computer science.
+        Hello {`ツ`} I am a senior at the University of Colorado Boulder, studying computer science.
         This past spring, I was admitted into an <Link href={'https://www.colorado.edu/cs/academics/graduate-programs/professional-masters-computer-science'} className="underline hover:no-underline hover:text-red">accelerated {`Master's`} program</Link> will be graduating with both a Bachelor of Science and a Master of Science in Computer Science in May 2026.
         <br/><br/>
       
