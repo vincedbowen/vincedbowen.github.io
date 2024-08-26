@@ -83,10 +83,10 @@ export default function Resume() {
                                 <text className='text-lg text-yellow'>CignaVerse</text>
                                 <br/>
                                 <text>
-                                    As part of my internship at Cigna, I collaborated with a team of interns to design and develop a comprehensive Android application aimed at enhancing the navigation of insurance information for policyholders.
+                                    {`As part of my internship at Cigna, I collaborated with a team of interns to design and develop a comprehensive Android application aimed at enhancing the navigation of insurance information for policyholders.
                                     The serverless application, built using React Native and Expo, featured a community forum and an AI-powered health assistant, Vector.
                                     Vector utilized a private GPT instance and a vector database to provide personalized responses to users' health insurance inquiries, contextualized by their specific insurance plans.
-                                    Additionally, users could engage in discussions where they could: ask questions, provide answers, upvote/downvote content, save posts, participate in threaded conversations, and report inappropriate content.
+                                    Additionally, users could engage in discussions where they could: ask questions, provide answers, upvote/downvote content, save posts, participate in threaded conversations, and report inappropriate content.`}
                                     <br/><br/>
 
                                     As the database lead and a full stack developer, I architected and designed:
@@ -139,9 +139,9 @@ export default function Resume() {
                                 <text className='text-lg text-yellow'>Ambulance Dispatch Simulator</text>
                                 <br/>
                                 <text>
-                                    As part of an Object-Oriented Analysis and Design course at university, a peer and I developed an ambulance dispatch simulator designed to manage emergency scenarios by dispatching the nearest, empty ambulance to patients and transporting them to the closest hospital.
+                                    {`As part of an Object-Oriented Analysis and Design course at university, a peer and I developed an ambulance dispatch simulator designed to manage emergency scenarios by dispatching the nearest, empty ambulance to patients and transporting them to the closest hospital.
                                     Our application used Groovy and Java-based for both the backend and frontend, with a Neo4J graph database leveraging a depth-first search algorithm to determine the closest ambulance and hospital.
-                                    Communication between the client, represented by a hand-drawn GUI, and the server was facilitated through TooTallNate's Java-WebSocket, allowing for the seamless transmission of serialized data. 
+                                    Communication between the client, represented by a hand-drawn GUI, and the server was facilitated through TooTallNate's Java-WebSocket, allowing for the seamless transmission of serialized data.`}
                                     <br/><br/>
                                     To ensure our solution was flexible, reusable, extendible, and scalable, we implemented five classic object-oriented design patterns: the Observer, the Singleton, the Builder, the Adapter, and the Command.
                                     <br/><br/>
