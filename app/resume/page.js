@@ -61,12 +61,12 @@ export default function Resume() {
                                 In this role, I guided students through complex topics such as: Analog & Digital Signals, Software Defined Radios, Sampling, Quadrature Signals, Digital Modulation, Receiver Structures, and Channel Models/Statistics.
                                 I also conducted weekly lab sessions, where students engaged in hands-on learning using Agilent Handheld Spectrum Analyzers, GNU Radio, MATLAB, LabVIEW, commercial-grade radios, and LTE infrastructure equipment.
                                 These assignments were focused on real-world and technical implementations of the theories explored in lectures.
-                                I give many thanks to my professor, Mark Lofquist, for inspiring my new-found passion in wireless communication and networks as a whole. 
+                                I give many thanks to my professor, <Link href={'https://www.linkedin.com/in/malofquist/'} className='text-white underline hover:text-red hover:no-underline'>Mark Lofquist</Link>, for inspiring my new-found passion in wireless communication and networks as a whole. 
                                 <br/><br/>
                                 This last year I was a course assistant for CSCI: 3022 - Intro to Data Science, and was asked to be the course manager for the fall 2024 semester.
                                 The course focused on key concepts: question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision-making, and homework assignments were completed in Python with a variety of external libraries. 
                                 <br/><br/>
-                                I developed and released a Python package on PyPi, simple-latex-checker designed to address the most common issue students encounter when converting their Jupyter Notebooks to PDFs: erroneous spaces in their inline LaTeX.
+                                I developed and released a Python package on PyPi, <Link href={'https://pypi.org/project/simple-latex-checker/'} className='text-white underline hover:text-red hover:no-underline'>simple-latex-checker</Link> designed to address the most common issue students encounter when converting their Jupyter Notebooks to PDFs: erroneous spaces in their inline LaTeX.
                                 I spun this up in a few hours by using RegEx pattern matching, but I would love to add more utility in the future to help students debug other common issues they face in technical assignments.
                             </text>
                         </li>
@@ -80,7 +80,7 @@ export default function Resume() {
                     <td className='p-4'>
                         <ul class="list-none">
                             <li>
-                                <text className='text-lg text-yellow'>CignaVerse</text>
+                                <text className='text-lg text-light-blue'>CignaVerse</text>
                                 <br/>
                                 <text>
                                     {`As part of my internship at Cigna, I collaborated with a team of interns to design and develop a comprehensive Android application aimed at enhancing the navigation of insurance information for policyholders.
@@ -106,8 +106,8 @@ export default function Resume() {
                                 </text>
                             </li>
                             <li>
-                                <text className='text-lg text-red'>
-                                    <Link href={'https://github.com/vincedbowen/mancala_ai'} className='underline hover:text-white'>Mancala AI</Link>
+                                <text className='text-lg text-yellow'>
+                                    <Link href={'https://github.com/vincedbowen/mancala_ai'} className='underline hover:text-white hover:no-underline'>Mancala AI</Link>
                                 </text>
                                 <br/>
                                 <text>
@@ -122,21 +122,21 @@ export default function Resume() {
                                 Additionally, I've placed a strong emphasis on achieving extensive testing coverage and generating comprehensive documentation.`}
                                 </text>
                             </li>
-                            <li className='pb-8'>
-                                <text className='text-lg text-light-blue'>
+                            <li>
+                                <text className='text-lg text-red'>
                                     <Link href={'https://github.com/vincedbowen/into-the-know'} className='underline hover:text-white hover:no-underline'>Into the Know</Link>
                                 </text>
                                 <br/>
                                 <text>
                                     {`Into the Know is a Python application built using Dash, Plotly, and the Strava API.
                                     Users can host the application locally, enabling them to explore and analyze their cycling statistics.
-                                    Currently implemented is an average power per ride chart, and an archetype graph, visually representing premium user's maximum power output for certain, user-defined time intervals.
-                                    While the Strava API was extremely difficult to use due to obscure formatting and stringent token limitations, my web application provides valuable data analysis visualization to cyclists using Strava.
-                                    I also implemented a bit of documentation using Sphinx and Read the Docs to enhance user accessibility and clarity.`}
+                                    Currently implemented is an average power per ride chart, and an archetype graph, visually representing premium user's maximum power output for certain, user-defined time intervals.`}
+                                    While the Strava API was extremely difficult to use due to obscure formatting and stringent token limitations, my web application provides valuable data analysis visualization to cyclists using <Link href={'https://www.strava.com/'} className='text-white underline hover:text-red hover:no-underline'>Strava</Link>.
+                                    I also implemented a bit of documentation using Sphinx and Read the Docs to enhance user accessibility and clarity.
                                 </text>
                             </li>
                             <li>
-                                <text className='text-lg text-yellow'>Ambulance Dispatch Simulator</text>
+                                <text className='text-lg text-light-blue'>Ambulance Dispatch Simulator</text>
                                 <br/>
                                 <text>
                                     {`As part of an Object-Oriented Analysis and Design course at university, a peer and I developed an ambulance dispatch simulator designed to manage emergency scenarios by dispatching the nearest, empty ambulance to patients and transporting them to the closest hospital.
@@ -145,17 +145,19 @@ export default function Resume() {
                                     <br/><br/>
                                     To ensure our solution was flexible, reusable, extendible, and scalable, we implemented five classic object-oriented design patterns: the Observer, the Singleton, the Builder, the Adapter, and the Command.
                                     <br/><br/>
-                                    You can find a demo video here (please ignore some super annoying async bugs... ugh), and our UML diagram here.
+                                    You can find a <Link href={'https://www.youtube.com/watch?v=rU7HIwiWxvU'} className='underline hover:text-light-blue hover:no-underline'>demo video here</Link> (please ignore some super annoying async bugs... ugh), and our UML diagram here.
                                 </text>
                             </li>
                             <li>
-                                <text className='text-lg text-red'>Simple TCP Chat</text>
+                                <text className='text-lg text-yellow'>
+                                    <Link href={'https://github.com/vincedbowen/simple-tcp-chat'} className='underline hover:text-white hover:no-underline'>Simple TCP Chat</Link>
+                                </text>
                                 <br/>
                                 <text>
-                                    {`I developed this super straightforward TCP chat room inspired by this tutorial.
+                                    I developed this super straightforward TCP chat room inspired by <Link href={'https://www.youtube.com/watch?v=SimNmTciQTs'} className='underline hover:text-yellow hover:no-underline'>this tutorial</Link>.
                                     By hosting a server on localhost, multiple clients on the same machine can connect through different terminal instances, enabling them to communicate in real time.
                                     Built with Python and standard libraries, but I am eager to transition this code-base to C or C++.
-                                    I am super interested in networks and communication protocols, so I would love to make this simple program much more feature rich in the future.`}
+                                    I am super interested in networks and communication protocols, so I would love to make this simple program much more feature rich in the future.
                                 </text>
                             </li>
                         </ul>
