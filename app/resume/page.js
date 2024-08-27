@@ -67,7 +67,7 @@ export default function Resume() {
                                 The course focused on key concepts: question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision-making, and homework assignments were completed in Python with a variety of external libraries. 
                                 <br/><br/>
                                 I developed and released a Python package on PyPi, simple-latex-checker designed to address the most common issue students encounter when converting their Jupyter Notebooks to PDFs: erroneous spaces in their inline LaTeX.
-                                I spun this up in a few hours, so I would love to add more utility in the future to help students debug other common issues they face in technical assignments.
+                                I spun this up in a few hours by using RegEx pattern matching, but I would love to add more utility in the future to help students debug other common issues they face in technical assignments.
                             </text>
                         </li>
                         <li>
