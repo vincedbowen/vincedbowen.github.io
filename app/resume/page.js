@@ -38,10 +38,10 @@ export default function Resume() {
                 <tr>
                     <td className='py-4 pr-10 align-top font-bold text-xl'>Experience</td>
                     <td className='p-4'>
-                    <ul class="list-none">
-                        <li>
-                            <text className='text-lg text-yellow'>Software Engineer Intern @ The Cigna Group</text>
-                            <text>
+                    <ul className="list-none">
+                        <li className='pb-8'>
+                            <text className='text-lg text-yellow pb-10'>Software Engineer Intern @ The Cigna Group</text>
+                            <text >
                                 <br/>
                                 During my internship on the Performance and Resiliency Engineering team, I focused on optimizing pipeline run times, resolving bugs, and enhancing the readability of NeoLoad performance testing reports for internal and externally facing web applications and APIs.
                                 I enabled development teams to store updated performance runs on network-attached storage (NAS) and compare results from various dates, ensuring new code consistently outperformed previous production versions.
@@ -53,7 +53,7 @@ export default function Resume() {
                                 This new architecture saves over 2,500 hours of pipeline run time per development team per sprint, and significantly reduces the time spent reviewing reports!
                             </text>
                         </li>
-                        <li>
+                        <li className='pb-8'>
                             <text className='text-lg text-red'>Course Manager/Assistant @ University of Colorado Boulder</text>
                             <br/>
                             <text>
@@ -78,8 +78,8 @@ export default function Resume() {
                 <tr>
                     <td className='py-4 pr-10 align-top font-bold text-xl'>Projects</td>
                     <td className='p-4'>
-                        <ul class="list-none">
-                            <li>
+                        <ul className="list-none">
+                            <li className='pb-8'>
                                 <text className='text-lg text-light-blue'>CignaVerse</text>
                                 <br/>
                                 <text>
@@ -105,7 +105,7 @@ export default function Resume() {
                                     Furthermore, I contributed to the creation of API gateways, enabling authenticated users to securely interact with the database, leveraging a web application firewall to validate the legitimacy of all network requests.
                                 </text>
                             </li>
-                            <li>
+                            <li className='pb-8'>
                                 <text className='text-lg text-yellow'>
                                     <Link href={'https://github.com/vincedbowen/mancala_ai'} className='underline hover:text-white hover:no-underline'>Mancala AI</Link>
                                 </text>
@@ -122,7 +122,7 @@ export default function Resume() {
                                 Additionally, I've placed a strong emphasis on achieving extensive testing coverage and generating comprehensive documentation.`}
                                 </text>
                             </li>
-                            <li>
+                            <li className='pb-8'>
                                 <text className='text-lg text-red'>
                                     <Link href={'https://github.com/vincedbowen/into-the-know'} className='underline hover:text-white hover:no-underline'>Into the Know</Link>
                                 </text>
@@ -135,7 +135,7 @@ export default function Resume() {
                                     I also implemented a bit of documentation using Sphinx and Read the Docs to enhance user accessibility and clarity.
                                 </text>
                             </li>
-                            <li>
+                            <li className='pb-8'>
                                 <text className='text-lg text-light-blue'>Ambulance Dispatch Simulator</text>
                                 <br/>
                                 <text>
@@ -148,10 +148,10 @@ export default function Resume() {
                                     You can find a <Link href={'https://www.youtube.com/watch?v=rU7HIwiWxvU'} className='underline hover:text-light-blue hover:no-underline'>demo video here</Link> (please ignore some super annoying async bugs... ugh), and our UML diagram here.
                                 </text>
                             </li>
-                            <li>
-                                <text className='text-lg text-yellow'>
+                            <li className='pb-8'>
+                                <span className='text-lg text-yellow'>
                                     <Link href={'https://github.com/vincedbowen/simple-tcp-chat'} className='underline hover:text-white hover:no-underline'>Simple TCP Chat</Link>
-                                </text>
+                                </span>
                                 <br/>
                                 <text>
                                     I developed this super straightforward TCP chat room inspired by <Link href={'https://www.youtube.com/watch?v=SimNmTciQTs'} className='underline hover:text-yellow hover:no-underline'>this tutorial</Link>.
