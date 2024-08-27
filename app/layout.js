@@ -10,11 +10,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <link rel="icon" href="/vdbHome.png" />
       </head>
-      <body className={arimo.className}>{children}</body>
+      <body className={arimo.className }>{children}</body>
     </html>
   );
 }
