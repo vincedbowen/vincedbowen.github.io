@@ -145,7 +145,7 @@ export default function Resume() {
                                     <br/><br/>
                                     To ensure our solution was flexible, reusable, extendible, and scalable, we implemented five classic object-oriented design patterns: the Observer, the Singleton, the Builder, the Adapter, and the Command.
                                     <br/><br/>
-                                    You can find a <Link href={'https://www.youtube.com/watch?v=rU7HIwiWxvU'} className='underline hover:text-light-blue hover:no-underline'>demo video here</Link> (please ignore some super annoying async bugs... ugh), and our UML diagram here.
+                                    You can find a <Link href={'https://www.youtube.com/watch?v=rU7HIwiWxvU'} className='underline hover:text-light-blue hover:no-underline'>demo video here</Link> (please ignore some super annoying async bugs... ugh), and you can download our <Link href={'/dispatchUML.pdf'} target="_blank" rel="noopener noreferrer" className='underline hover:text-light-blue hover:no-underline'>UML here</Link>.
                                 </text>
                             </li>
                             <li className='pb-8'>
