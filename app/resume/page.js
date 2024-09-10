@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 export function ResumeDownload() {
     return (
-      <Link href="https://www.linkedin.com/">
+      <Link href="/BowenVincent2024.pdf" target="_blank" rel="noopener noreferrer">
         <motion.div
           whileHover={{ scale: 1.2, rotate: 10 }}
           whileTap={{ scale: 0.9, rotate: -10 }}
