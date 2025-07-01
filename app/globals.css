@@ -18,11 +18,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: black;
+  background: #001400;
 }
 
 p, text, h1, td {
-  color: white;
+  color: black;
 }
 
 

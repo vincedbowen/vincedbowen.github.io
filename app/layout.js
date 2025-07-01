@@ -1,7 +1,8 @@
-import { Arimo } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
+import AppShell from "../components/AppShell";
 
-const arimo = Arimo({ subsets: ["latin"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata = {
   title: "Vincent Bowen",
@@ -10,11 +11,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="dark">
-      <head>
-        <link rel="icon" href="/vdbHome.png" />
-      </head>
-      <body className={arimo.className }>{children}</body>
+    <html lang="en">
+      <body className={poppins.className}>
+        <AppShell>{children}</AppShell>
+      </body>
     </html>
   );
 }

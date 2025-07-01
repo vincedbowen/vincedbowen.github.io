@@ -1,30 +1,57 @@
-import Link from 'next/link';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+"use client";
+
+import React from "react";
+import Link from "next/link";
 
 export default function Colophon() {
   return (
-  <main className='overflow-x-hidden flex flex-col min-h-screen'>
-    <Navbar/>
-    <h1 className="text-4xl font-bold mb-6 ml-14 mt-4">Colophon</h1>
-    <div className="flex flex-col flex-grow bg-gray-100">
-      <p className=" ml-14 max-w-5xl">
-        This website was designed using <Link href={'https://react.dev/'} className='underline hover:no-underline hover:text-red'>React</Link>, <Link href={'https://v2.tailwindcss.com/docs'} className='underline hover:no-underline hover:text-light-blue'>Tailwind CSS</Link>, and <Link href={'https://nextjs.org/'} className='underline hover:no-underline hover:text-yellow'>Next.js</Link>.
-        This is probably (definitely) overkill, but I wanted to gain some more experience with these tools, and create a reusable and beautiful personal portfolio. 
-        <br/> <br/>
-
-        I used <Link href={'https://www.npmjs.com/package/typewriter-effect'} className='underline hover:no-underline hover:text-red'>typewriter-effect</Link> and <Link href={'https://www.framer.com/motion/'} className='underline hover:no-underline hover:text-light-blue'>Framer motion</Link> to animate some whimsical components.
-        <br/> <br/>
-
-        Recently, my <Link href={'https://kennethbowen.com/'} className='underline hover:no-underline hover:text-yellow'>dad</Link> got me hooked on Swiss design!
-        I love the simplicity and visuals of Swiss design, so I tried to incorporate some of those elements.
-        The colors used were heavily inspired by one of my favorite albums and album covers, <Link href={'https://www.youtube.com/watch?v=o4qsjmLxhow&list=PLlLGTTlLJXAX-UwWbyH8m6SGSWRntdCf0'} className='underline hover:no-underline hover:text-red'>The New Abnormal</Link> by the Strokes. Give it a listen!!
-        <br/><br/>
-
-        Finally, huge thanks to my buddy, <Link href={'https://natew.xyz/'} className='underline hover:no-underline hover:text-light-blue'>Nate</Link>, for the website re-design inspiration.
-      </p>
+    <div className="flex flex-col justify-end min-h-screen pr-16 pb-16">
+      <div className="max-w-3xl self-end">
+        <p className="text-lg text-right">
+          This website is built using Next.js, React, Tailwind CSS, and Material UI. This is all definitely overkill for a personal portfolio, but I wanted to have a fun tiny project to work on. The source code is available on{" "}
+          <Link
+            href="https://github.com/vincedbowen/vincedbowen.github.io"
+            className="underline  hover:no-underline"
+          >
+            GitHub
+          </Link>
+          .
+          <br /><br />
+          The design is heavily inspired by the ebb and flow of nature. I wanted to create a site with jelly-like blobs floating around like jellyfish or a lava lamp. The blobs are animated using Framer Motion
+          , and I had to do quite a bit of work to reduce the {" "}
+          <Link
+            href="https://en.wikipedia.org/wiki/Colour_banding"
+            className="underline  hover:no-underline"
+          >
+            banding
+          </Link>
+          . I originally wanted a darker background,
+          but discovered the banding was much more pronounced and obvious. Even with the lighter background, I still noticed some sharp edges, so I added blurring to reduce this. There still may be some banding on lower quality monitors, but I think it still looks really cool.
+          <br /><br />
+          Thank you to some of my close friends and fellow developers for their great inspiration:{" "}
+          <Link
+            href="https://jackp50.github.io/"
+            className="underline  hover:no-underline"
+          >
+            Jack Pearne
+          </Link>
+          ,{" "}
+          <Link
+            href="https://jettneubacher.github.io/"
+            className="underline hover:no-underline"
+          >
+            Jett Neubacher
+          </Link>
+          , and{" "}
+          <Link
+            href="https://natew.xyz/"
+            className="underline hover:no-underline"
+          >
+            Nate Weaver
+          </Link>
+          . Check out their portfolios for some really beautiful designs and to learn more about these amazing people!
+        </p>
+      </div>
     </div>
-    <Footer/>
-  </main>
   );
 }
