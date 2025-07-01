@@ -13,7 +13,7 @@ export default function About() {
           I am extremely passionate about using technology and software to solve challenges in our healthcare and medical system.
           I&apos;m an intern at The Cigna Group, where I work with big data and am currently learning Rust 🦀. 
           <br /><br />
-          During my free time, I enjoy cycling, my girlfriend and I love to train our dog Gary, and I listen to a lot of music.
+          During my free time I enjoy cycling, my girlfriend and I love to train our dog Gary, and I listen to a lot of music.
         </p>
       </div>
     </div>
