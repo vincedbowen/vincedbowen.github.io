@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export default function Colophon() {
   return (
-    <div className="flex flex-col justify-end min-h-screen pr-16 pb-16">
-      <div className="max-w-3xl self-end">
-        <p className="text-lg text-right">
+    <div className="flex min-h-screen flex-col justify-center items-center sm:justify-end sm:items-end sm:pr-16 sm:pb-16 py-8 px-4">
+      <div className="max-w-3xl w-full">
+        <p className="sm:text-lg text-center sm:text-right text-md">
           This website is built using Next.js, React, Tailwind CSS, and Material UI. This is all definitely overkill for a personal portfolio, but I wanted to have a fun tiny project to work on. The source code is available on{" "}
           <Link
             href="https://github.com/vincedbowen/vincedbowen.github.io"

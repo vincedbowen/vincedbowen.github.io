@@ -5,11 +5,11 @@ import React from 'react';
 
 export default function Projects() {
     return (
-        <div className="flex flex-col items-end min-h-screen pr-16 pb-16 pt-8">
-            <div className="max-w-5xl w-full text-right">
+        <div className="flex flex-col min-h-screen items-center justify-center px-4 py-8 sm:items-end sm:justify-end sm:pr-16 sm:pb-16">
+            <div className="max-w-5xl w-full sm:text-right text-center">
                 <ul className="list-none">
                     <li className='pb-8'>
-                        <span className='text-3xl text-black pb-3 block text-left'>CignaVerse</span>
+                        <span className='text-3xl text-black pb-3 block sm:text-left'>CignaVerse</span>
                         <p>
                             {`As part of my internship at Cigna, I collaborated with a team of interns to design and develop a comprehensive Android application aimed at enhancing the navigation of insurance information for policyholders.
                                     The serverless application, built using React Native and Expo, featured a community forum and an AI-powered health assistant, Vector.
@@ -18,7 +18,7 @@ export default function Projects() {
                             <br /><br />
                             As the database lead and a full stack developer, I architected and designed:
                         </p>
-                        <div className="text-left w-full">
+                        <div className="sm:text-left w-full">
                             <ul className='list-disc ml-8'>
                                 <li>
                                     Two DynamoDB tables for managing user information and post data
@@ -37,7 +37,7 @@ export default function Projects() {
                         </p>
                     </li>
                     <li className='pb-8'>
-                        <span className='text-3xl text-black pb-3 block text-left'>
+                        <span className='text-3xl text-black pb-3 block sm:text-left'>
                             <Link href={'https://github.com/vincedbowen/mancala_ai'} className='underline text-black hover:no-underline'>Mancala AI</Link>
                         </span>
                         <p>
@@ -53,7 +53,7 @@ export default function Projects() {
                         </p>
                     </li>
                     <li className='pb-8'>
-                        <span className='text-3xl text-black pb-3 block text-left'>
+                        <span className='text-3xl text-black pb-3 block sm:text-left'>
                             <Link href={'https://github.com/vincedbowen/into-the-know'} className='underline text-black hover:no-underline'>Into the Know</Link>
                         </span>
                         <p>
@@ -65,7 +65,7 @@ export default function Projects() {
                         </p>
                     </li>
                     <li className='pb-8'>
-                        <span className='text-3xl text-black pb-3 block text-left'>Ambulance Dispatch Simulator</span>
+                        <span className='text-3xl text-black pb-3 block sm:text-left'>Ambulance Dispatch Simulator</span>
                         <p>
                             {`As part of an Object-Oriented Analysis and Design course at university, a peer and I developed an ambulance dispatch simulator designed to manage emergency scenarios by dispatching the nearest, empty ambulance to patients and transporting them to the closest hospital.
                                     Our application used Groovy and Java-based for both the backend and frontend, with a Neo4J graph database leveraging a depth-first search algorithm to determine the closest ambulance and hospital.
@@ -77,7 +77,7 @@ export default function Projects() {
                         </p>
                     </li>
                     <li className='pb-8'>
-                        <span className='text-3xl text-black pb-3 block text-left'>
+                        <span className='text-3xl text-black pb-3 block sm:text-left'>
                             <Link href={'https://github.com/vincedbowen/simple-tcp-chat'} className='underline text-black hover:no-underline'>Simple TCP Chat</Link>
                         </span>
                         <p>
