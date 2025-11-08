@@ -18,7 +18,7 @@ export default function Projects() {
                             <br /><br />
                             As the database lead and a full stack developer, I architected and designed:
                         </p>
-                        <div className="sm:text-left w-full">
+                        <div className="sm:text-left w-full text-black">
                             <ul className='list-disc ml-8'>
                                 <li>
                                     Two DynamoDB tables for managing user information and post data
